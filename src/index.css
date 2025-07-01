@@ -1,14 +1,14 @@
-
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-.app{
-  background:#e2d4ff ;
+.app {
+  background: #e2d4ff;
   display: grid;
-  min-height: 100vh
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  min-height: 100vh;
+  width: 100vw;
 }
