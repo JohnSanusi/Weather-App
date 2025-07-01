@@ -11,4 +11,5 @@
   grid-template-columns: repeat(1, minmax(0, 1fr));
   min-height: 100vh;
   width: 100vw;
+  padding: 20px;
 }
